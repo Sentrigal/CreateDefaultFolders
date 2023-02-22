@@ -15,3 +15,7 @@ You can also chain these like so:
 rootFolder.AddSubFolder("SubFolderName").AddSubFolder("YetAnotherFolder");
 
 Creating your own layout should be fairly quick. Just save the script, hit up the button again and poof, folders.
+
+The default, hardcoded layout looks like this:
+
+![Structure](https://i.imgur.com/mtMnD8w.png)
