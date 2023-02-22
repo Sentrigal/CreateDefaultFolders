@@ -19,3 +19,5 @@ Creating your own layout should be fairly quick. Just save the script, hit up th
 The default, hardcoded layout looks like this:
 
 ![Structure](https://i.imgur.com/mtMnD8w.png)
+
+As you can see, the folders are also not empty, that's because I checked the dummy file checkbox. This creates a little textfile whose only purpose is to add the folder to a commit (since empty folders are ignored). Once there is actual data in it, you can just delete it.
