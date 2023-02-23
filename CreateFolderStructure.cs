@@ -65,7 +65,7 @@ public class CreateFolderStructure : EditorWindow
         EditorGUILayout.LabelField("Enter name of the root folder: ");
         rootFolderName = EditorGUILayout.TextField("Root:", rootFolderName);
         createGitPlaceholder = EditorGUILayout.ToggleLeft("Placeholders", createGitPlaceholder);
-        EditorGUILayout.HelpBox("When ticked, dummy text files will be created in every folder in order to give Git (and similar tools) something to upload. Without this, Git will ignore these folders until they contain some other files.", MessageType.Info);
+        EditorGUILayout.HelpBox("When ticked, a .gitkeep file will be created in the folder to make Git keep it. This file will not be imported by Unity and will only be visible in the explorer.", MessageType.Info);
 
 
         if (GUILayout.Button("Generate"))
