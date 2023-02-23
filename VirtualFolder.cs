@@ -68,10 +68,7 @@ public struct VirtualFolder
         Directory.CreateDirectory(fullPath);
         if (createGitDummyFile)
         {
-            using (var fs = File.CreateText(fullPath + "/Dummy.txt"))
-            {
-                fs.WriteLine("Dummy file for Git for the path: " + fullPath);
-            }
+            File.Create(fullPath + "/.gitkeep");
         }
     }
 }
